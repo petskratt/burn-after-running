@@ -1,0 +1,8 @@
+name: burn-after-running
+
+services:
+  app:
+    container_name: app
+    build: ./src
+    ports:
+      - 80:80
